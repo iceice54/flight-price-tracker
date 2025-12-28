@@ -1,0 +1,666 @@
+{
+    "search_metadata": {
+        "id": "6949cb500e285ddb26f31a3c",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/4d01f0bcb0253324/6949cb500e285ddb26f31a3c.json",
+        "created_at": "2025-12-22 22:50:56 UTC",
+        "processed_at": "2025-12-22 22:50:56 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=sg&curr=SGD&tfs=CBwQAhoeEgoyMDI2LTAyLTEyagcIARIDU0lOcgcIARIDS0lYGh4SCjIwMjYtMDItMjRqBwgBEgNLSVhyBwgBEgNTSU5CAQFIAXABmAEB&tfu=EgIIAQ",
+        "raw_html_file": "https://serpapi.com/searches/4d01f0bcb0253324/6949cb500e285ddb26f31a3c.html",
+        "prettify_html_file": "https://serpapi.com/searches/4d01f0bcb0253324/6949cb500e285ddb26f31a3c.prettify",
+        "total_time_taken": 0.59
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "hl": "en",
+        "gl": "sg",
+        "departure_id": "SIN",
+        "arrival_id": "KIX",
+        "outbound_date": "2026-02-12",
+        "return_date": "2026-02-24",
+        "currency": "SGD"
+    },
+    "best_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2026-02-12 02:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Kansai International Airport",
+                        "id": "KIX",
+                        "time": "2026-02-12 09:40"
+                    },
+                    "duration": 380,
+                    "airplane": "Airbus A321",
+                    "airline": "Peach Aviation",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MM.png",
+                    "travel_class": "Economy",
+                    "flight_number": "MM 774",
+                    "extensions": ["Carbon emissions estimate: 387 kg"],
+                    "overnight": true,
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "total_duration": 380,
+            "carbon_emissions": {
+                "this_flight": 387000,
+                "typical_for_this_route": 405000,
+                "difference_percent": -4
+            },
+            "price": 592,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MM.png",
+            "departure_token": "WyJDalJJWldadlJrTlFkSGRPU0ZWQlFsTXlSM2RDUnkwdExTMHRMUzB0TFMxdmEzVnZORUZCUVVGQlIyeEtlVEZCUm5SSVNVZEJFZ1ZOVFRjM05Cb0xDTURPQXhBQ0dnTlRSMFE0SEhEMDVnST0iLFtbIlNJTiIsIjIwMjYtMDItMTIiLCJLSVgiLG51bGwsIk1NIiwiNzc0Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2026-02-12 06:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Kansai International Airport",
+                        "id": "KIX",
+                        "time": "2026-02-12 14:10"
+                    },
+                    "duration": 375,
+                    "airplane": "Boeing 787",
+                    "airline": "Scoot",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TR 818",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Carbon emissions estimate: 306 kg"
+                    ]
+                }
+            ],
+            "total_duration": 375,
+            "carbon_emissions": {
+                "this_flight": 307000,
+                "typical_for_this_route": 405000,
+                "difference_percent": -24
+            },
+            "price": 909,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
+            "departure_token": "WyJDalJJWldadlJrTlFkSGRPU0ZWQlFsTXlSM2RDUnkwdExTMHRMUzB0TFMxdmEzVnZORUZCUVVGQlIyeEtlVEZCUm5SSVNVZEJFZ1ZVVWpneE9Cb0xDSlRHQlJBQ0dnTlRSMFE0SEhDTHB3UT0iLFtbIlNJTiIsIjIwMjYtMDItMTIiLCJLSVgiLG51bGwsIlRSIiwiODE4Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2026-02-12 01:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Kansai International Airport",
+                        "id": "KIX",
+                        "time": "2026-02-12 08:35"
+                    },
+                    "duration": 365,
+                    "airplane": "Boeing 787",
+                    "airline": "Singapore Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SQ 618",
+                    "ticket_also_sold_by": ["ANA"],
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 267 kg"
+                    ],
+                    "overnight": true,
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "total_duration": 365,
+            "carbon_emissions": {
+                "this_flight": 267000,
+                "typical_for_this_route": 405000,
+                "difference_percent": -34
+            },
+            "price": 1259,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+            "departure_token": "WyJDalJJWldadlJrTlFkSGRPU0ZWQlFsTXlSM2RDUnkwdExTMHRMUzB0TFMxdmEzVnZORUZCUVVGQlIyeEtlVEZCUm5SSVNVZEJFZ1ZUVVRZeE9Cb0xDTXpYQnhBQ0dnTlRSMFE0SEhDait3VT0iLFtbIlNJTiIsIjIwMjYtMDItMTIiLCJLSVgiLG51bGwsIlNRIiwiNjE4Il1dXQ=="
+        }
+    ],
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2026-02-12 19:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Tan Son Nhat International Airport",
+                        "id": "SGN",
+                        "time": "2026-02-12 20:35"
+                    },
+                    "duration": 125,
+                    "airplane": "Airbus A320",
+                    "airline": "Vietjet",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VJ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "VJ 812",
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Carbon emissions estimate: 108 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Tan Son Nhat International Airport",
+                        "id": "SGN",
+                        "time": "2026-02-13 01:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Kansai International Airport",
+                        "id": "KIX",
+                        "time": "2026-02-13 08:30"
+                    },
+                    "duration": 310,
+                    "airplane": "Airbus A321",
+                    "airline": "Vietjet",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VJ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "VJ 828",
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Carbon emissions estimate: 300 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 285,
+                    "name": "Tan Son Nhat International Airport",
+                    "id": "SGN"
+                }
+            ],
+            "total_duration": 720,
+            "carbon_emissions": {
+                "this_flight": 409000,
+                "typical_for_this_route": 405000,
+                "difference_percent": 1
+            },
+            "price": 715,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VJ.png",
+            "departure_token": "WyJDalJJWldadlJrTlFkSGRPU0ZWQlFsTXlSM2RDUnkwdExTMHRMUzB0TFMxdmEzVnZORUZCUVVGQlIyeEtlVEZCUm5SSVNVZEJFZ3RXU2pneE1ueFdTamd5T0JvTENJdXVCQkFDR2dOVFIwUTRISENLc1FNPSIsW1siU0lOIiwiMjAyNi0wMi0xMiIsIlNHTiIsbnVsbCwiVkoiLCI4MTIiXSxbIlNHTiIsIjIwMjYtMDItMTMiLCJLSVgiLG51bGwsIlZKIiwiODI4Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2026-02-12 01:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Incheon International Airport",
+                        "id": "ICN",
+                        "time": "2026-02-12 08:40"
+                    },
+                    "duration": 390,
+                    "airplane": "Boeing 737",
+                    "airline": "Jeju Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/7C.png",
+                    "travel_class": "Economy",
+                    "flight_number": "7C 2624",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Carbon emissions estimate: 360 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Incheon International Airport",
+                        "id": "ICN",
+                        "time": "2026-02-12 14:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Kansai International Airport",
+                        "id": "KIX",
+                        "time": "2026-02-12 15:50"
+                    },
+                    "duration": 100,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Jeju Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/7C.png",
+                    "travel_class": "Economy",
+                    "flight_number": "7C 1393",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 77 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 330,
+                    "name": "Incheon International Airport",
+                    "id": "ICN"
+                }
+            ],
+            "total_duration": 820,
+            "carbon_emissions": {
+                "this_flight": 438000,
+                "typical_for_this_route": 405000,
+                "difference_percent": 8
+            },
+            "price": 825,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/7C.png",
+            "departure_token": "WyJDalJJWldadlJrTlFkSGRPU0ZWQlFsTXlSM2RDUnkwdExTMHRMUzB0TFMxdmEzVnZORUZCUVVGQlIyeEtlVEZCUm5SSVNVZEJFZzAzUXpJMk1qUjhOME14TXprekdnc0l3b1FGRUFJYUExTkhSRGdjY0pQMEF3PT0iLFtbIlNJTiIsIjIwMjYtMDItMTIiLCJJQ04iLG51bGwsIjdDIiwiMjYyNCJdLFsiSUNOIiwiMjAyNi0wMi0xMiIsIktJWCIsbnVsbCwiN0MiLCIxMzkzIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2026-02-12 20:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Don Mueang International Airport",
+                        "id": "DMK",
+                        "time": "2026-02-12 22:10"
+                    },
+                    "duration": 150,
+                    "airplane": "Airbus A320",
+                    "airline": "Thai AirAsia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FD.png",
+                    "travel_class": "Economy",
+                    "flight_number": "FD 350",
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Carbon emissions estimate: 134 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Don Mueang International Airport",
+                        "id": "DMK",
+                        "time": "2026-02-13 00:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Kansai International Airport",
+                        "id": "KIX",
+                        "time": "2026-02-13 08:40"
+                    },
+                    "duration": 345,
+                    "airplane": "Airbus A330",
+                    "airline": "Thai AirAsia X",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/XJ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "XJ 612",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "In-seat power & USB outlets",
+                        "Carbon emissions estimate: 295 kg"
+                    ],
+                    "overnight": true,
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 165,
+                    "name": "Don Mueang International Airport",
+                    "id": "DMK"
+                }
+            ],
+            "total_duration": 660,
+            "carbon_emissions": {
+                "this_flight": 430000,
+                "typical_for_this_route": 405000,
+                "difference_percent": 6
+            },
+            "price": 938,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJWldadlJrTlFkSGRPU0ZWQlFsTXlSM2RDUnkwdExTMHRMUzB0TFMxdmEzVnZORUZCUVVGQlIyeEtlVEZCUm5SSVNVZEJFZ3RHUkRNMU1IeFlTall4TWhvTENJcmNCUkFDR2dOVFIwUTRISENNdUFRPSIsW1siU0lOIiwiMjAyNi0wMi0xMiIsIkRNSyIsbnVsbCwiRkQiLCIzNTAiXSxbIkRNSyIsIjIwMjYtMDItMTMiLCJLSVgiLG51bGwsIlhKIiwiNjEyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2026-02-12 07:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2026-02-12 11:35"
+                    },
+                    "duration": 235,
+                    "airplane": "Airbus A330",
+                    "airline": "Cathay Pacific",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CX 710",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 187 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2026-02-12 13:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Kansai International Airport",
+                        "id": "KIX",
+                        "time": "2026-02-12 17:50"
+                    },
+                    "duration": 210,
+                    "airplane": "Airbus A321neo",
+                    "airline": "Cathay Pacific",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CX 598",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 188 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 105,
+                    "name": "Hong Kong International Airport",
+                    "id": "HKG"
+                }
+            ],
+            "total_duration": 550,
+            "carbon_emissions": {
+                "this_flight": 376000,
+                "typical_for_this_route": 405000,
+                "difference_percent": -7
+            },
+            "price": 1088,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+            "departure_token": "WyJDalJJWldadlJrTlFkSGRPU0ZWQlFsTXlSM2RDUnkwdExTMHRMUzB0TFMxdmEzVnZORUZCUVVGQlIyeEtlVEZCUm5SSVNVZEJFZ3REV0RjeE1IeERXRFU1T0JvTENPTFJCaEFDR2dOVFIwUTRISEMya3dVPSIsW1siU0lOIiwiMjAyNi0wMi0xMiIsIkhLRyIsbnVsbCwiQ1giLCI3MTAiXSxbIkhLRyIsIjIwMjYtMDItMTIiLCJLSVgiLG51bGwsIkNYIiwiNTk4Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2026-02-12 10:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2026-02-12 14:00"
+                    },
+                    "duration": 240,
+                    "airplane": "Airbus A330",
+                    "airline": "Cathay Pacific",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CX 658",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 187 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2026-02-12 16:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Kansai International Airport",
+                        "id": "KIX",
+                        "time": "2026-02-12 21:05"
+                    },
+                    "duration": 205,
+                    "airplane": "Airbus A330",
+                    "airline": "Cathay Pacific",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CX 502",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 183 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 160,
+                    "name": "Hong Kong International Airport",
+                    "id": "HKG"
+                }
+            ],
+            "total_duration": 605,
+            "carbon_emissions": {
+                "this_flight": 371000,
+                "typical_for_this_route": 405000,
+                "difference_percent": -8
+            },
+            "price": 1088,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+            "departure_token": "WyJDalJJWldadlJrTlFkSGRPU0ZWQlFsTXlSM2RDUnkwdExTMHRMUzB0TFMxdmEzVnZORUZCUVVGQlIyeEtlVEZCUm5SSVNVZEJFZ3REV0RZMU9IeERXRFV3TWhvTENPTFJCaEFDR2dOVFIwUTRISEMya3dVPSIsW1siU0lOIiwiMjAyNi0wMi0xMiIsIkhLRyIsbnVsbCwiQ1giLCI2NTgiXSxbIkhLRyIsIjIwMjYtMDItMTIiLCJLSVgiLG51bGwsIkNYIiwiNTAyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2026-02-12 08:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Kansai International Airport",
+                        "id": "KIX",
+                        "time": "2026-02-12 15:30"
+                    },
+                    "duration": 365,
+                    "airplane": "Boeing 787",
+                    "airline": "Singapore Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SQ 620",
+                    "ticket_also_sold_by": ["ANA"],
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 267 kg"
+                    ]
+                }
+            ],
+            "total_duration": 365,
+            "carbon_emissions": {
+                "this_flight": 267000,
+                "typical_for_this_route": 405000,
+                "difference_percent": -34
+            },
+            "price": 1494,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+            "departure_token": "WyJDalJJWldadlJrTlFkSGRPU0ZWQlFsTXlSM2RDUnkwdExTMHRMUzB0TFMxdmEzVnZORUZCUVVGQlIyeEtlVEZCUm5SSVNVZEJFZ1ZUVVRZeU1Cb0xDSmlQQ1JBQ0dnTlRSMFE0SEhEZmlRYz0iLFtbIlNJTiIsIjIwMjYtMDItMTIiLCJLSVgiLG51bGwsIlNRIiwiNjIwIl1dXQ=="
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 592,
+        "price_level": "high",
+        "typical_price_range": [345, 480],
+        "price_history": [
+            [1761235200, 420],
+            [1761321600, 420],
+            [1761408000, 420],
+            [1761494400, 420],
+            [1761580800, 441],
+            [1761667200, 441],
+            [1761753600, 440],
+            [1761840000, 434],
+            [1761926400, 456],
+            [1762012800, 449],
+            [1762099200, 449],
+            [1762185600, 449],
+            [1762272000, 472],
+            [1762358400, 480],
+            [1762444800, 452],
+            [1762531200, 467],
+            [1762617600, 467],
+            [1762704000, 467],
+            [1762790400, 474],
+            [1762876800, 468],
+            [1762963200, 468],
+            [1763049600, 495],
+            [1763136000, 469],
+            [1763222400, 469],
+            [1763308800, 469],
+            [1763395200, 516],
+            [1763481600, 516],
+            [1763568000, 496],
+            [1763654400, 514],
+            [1763740800, 515],
+            [1763827200, 550],
+            [1763913600, 550],
+            [1764000000, 512],
+            [1764086400, 532],
+            [1764172800, 531],
+            [1764259200, 562],
+            [1764345600, 561],
+            [1764432000, 526],
+            [1764518400, 489],
+            [1764604800, 513],
+            [1764691200, 489],
+            [1764777600, 374],
+            [1764864000, 316],
+            [1764950400, 394],
+            [1765036800, 394],
+            [1765123200, 394],
+            [1765209600, 612],
+            [1765296000, 644],
+            [1765382400, 645],
+            [1765468800, 566],
+            [1765555200, 612],
+            [1765641600, 598],
+            [1765728000, 598],
+            [1765814400, 598],
+            [1765900800, 570],
+            [1765987200, 579],
+            [1766073600, 615],
+            [1766160000, 614],
+            [1766246400, 661],
+            [1766332800, 613],
+            [1766419200, 592]
+        ]
+    },
+    "airports": [
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "SIN",
+                        "name": "Singapore Changi Airport"
+                    },
+                    "city": "Singapore",
+                    "country": "Singapore",
+                    "country_code": "SG",
+                    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTPxNDQYUBDKl_Cnb-2R_TakwdFGzKIpvsMBeDdYwNHK_c2jUY6LVQ5R_mwZDf9hOuu6iHgYjrL87eDZw",
+                    "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSp10Y3G-u5LPBzRWABhOUD7BGcBspacZc2r31UP6QmzLmyprerN-6BZ5wZkdsDXngRuIYCPQI8Ny3uYjbRegATm48AJfppuLgpsc0mhsE"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "KIX",
+                        "name": "Kansai International Airport"
+                    },
+                    "city": "Osaka",
+                    "country": "Japan",
+                    "country_code": "JP",
+                    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTrQEGi0u09QEhaXC7jvOA-72dXN569lL-E39eTh1dLlQH-HPBVXJvLJ1GSX2x3oZ4R64EfT66yJkmlA",
+                    "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR3jKI7Lkj9P49olywFLeY1N_JCP0sLdkXx44vXuyBdWWF2Qu4FCz3dwTl_18a5QGqoRE0_hIHdKSQfmwxATIxo97rwtP0bi082GpSANwM"
+                }
+            ]
+        },
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "KIX",
+                        "name": "Kansai International Airport"
+                    },
+                    "city": "Osaka",
+                    "country": "Japan",
+                    "country_code": "JP",
+                    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTrQEGi0u09QEhaXC7jvOA-72dXN569lL-E39eTh1dLlQH-HPBVXJvLJ1GSX2x3oZ4R64EfT66yJkmlA",
+                    "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR3jKI7Lkj9P49olywFLeY1N_JCP0sLdkXx44vXuyBdWWF2Qu4FCz3dwTl_18a5QGqoRE0_hIHdKSQfmwxATIxo97rwtP0bi082GpSANwM"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "SIN",
+                        "name": "Singapore Changi Airport"
+                    },
+                    "city": "Singapore",
+                    "country": "Singapore",
+                    "country_code": "SG",
+                    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTPxNDQYUBDKl_Cnb-2R_TakwdFGzKIpvsMBeDdYwNHK_c2jUY6LVQ5R_mwZDf9hOuu6iHgYjrL87eDZw",
+                    "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSp10Y3G-u5LPBzRWABhOUD7BGcBspacZc2r31UP6QmzLmyprerN-6BZ5wZkdsDXngRuIYCPQI8Ny3uYjbRegATm48AJfppuLgpsc0mhsE"
+                }
+            ]
+        }
+    ]
+}
