@@ -1,7 +1,4 @@
 from functools import lru_cache
-from typing import Annotated
-from fastapi import Depends
-from backend.settings import Settings, get_settings
 from backend.services.flight_service import FlightService
 
 @lru_cache
